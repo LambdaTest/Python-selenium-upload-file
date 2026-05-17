@@ -5,10 +5,19 @@
   <a href="https://community.testmuai.com/"><img src="https://img.shields.io/badge/Join%20the%20community-blueviolet.svg?style=for-the-badge&labelColor=000000" alt="Community"></a>
 </p>
 
-If you want to upload a file to TestMu AI (Formerly LambdaTest) and use it in your Python-selenium automation test, you can follow the below steps.
+## Getting Started
+
+[TestMu AI](https://www.testmuai.com/) (Formerly LambdaTest) is the world's first full-stack AI Agentic Quality Engineering platform that empowers teams to test intelligently, smarter, and ship faster. Built for scale, it offers a full-stack testing cloud with 10K+ real devices and 3,000+ browsers. With AI-native test management, MCP servers, and agent-based automation, TestMu AI supports Selenium, Appium, Playwright, and all major frameworks.
+
+With TestMu AI (Formerly LambdaTest), you can run Python Selenium Upload File Tests across real browsers and operating systems.
 
 - [Sign up on TestMu AI](https://www.testmuai.com/register/) (Formerly LambdaTest).
 - Follow the [TestMu AI Documentation](https://www.testmuai.com/support/docs/) for the full setup walkthrough.
+
+### Prerequisites
+
+- Python 3.x and pip
+- A TestMu AI (Formerly LambdaTest) account with your username and access key
 
 # Steps:
 
@@ -16,11 +25,9 @@ If you want to upload a file to TestMu AI (Formerly LambdaTest) and use it in yo
 
 Use the file upload API to upload the file to the backend.
 
-
 ### Step 2: Pass file in capabilities
 
 In the test file, you need to update the test capabilities and add the filename for the `lambda:userFiles` capability. For example, if two files with filenames `photo1.png` and `photo2.png`, it has to be passed like so in the capability:
-
 
 ```python
 desired_caps = {
