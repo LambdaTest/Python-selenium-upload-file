@@ -19,6 +19,11 @@ With TestMu AI (Formerly LambdaTest), you can run Python Selenium Upload File Te
 - Python 3.x and pip
 - A TestMu AI (Formerly LambdaTest) account with your username and access key
 
+### Prerequisites
+
+- Python 3.x and pip
+- A TestMu AI (Formerly LambdaTest) account with your username and access key
+
 # Steps:
 
 ### Step 1: Upload the file to TestMu AI (Formerly LambdaTest) using API
